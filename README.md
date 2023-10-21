@@ -7,9 +7,11 @@ All the themes I use
  - [VSCode](https://github.com/material-theme/vsc-material-theme)
    ![preview](https://material-theme-website.vercel.app/images/darker.png)
  - [KDE custom colors](./kde/color-schemes/MaterialThemeDark.colors)
+
     ![preview1](./images/screenshot_color_schema_2.png)
     ![preview2](./images/screenshot_color_schema_1.png)
  - [Kitty](./.config/kitty/kitty.conf) + [Powerlevel10k](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
+
       ![preview2](./images/screenshot_kitty_theme.png)
 
 ## Linux
