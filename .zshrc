@@ -56,6 +56,9 @@ alias bye="shutdown -r now" # turn off
 alias .zshrc="code ~/.zshrc" # open .zshrc on vscode
 alias .kitty="code ~/.config/kitty/kitty.conf" # open kitty.conf on vscode
 
+# vscode 
+alias .c="code ." # open folder on vscode
+
 # aliases end
 
 ### Added by Zinit's installer
