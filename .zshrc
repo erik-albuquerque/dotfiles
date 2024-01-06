@@ -59,6 +59,19 @@ alias .kitty="code ~/.config/kitty/kitty.conf" # open kitty.conf on vscode
 # vscode 
 alias .c="code ." # open folder on vscode
 
+# pnpm
+alias p="pnpm" # pnpm
+alias pa="p add" # install package
+alias pad="p add -D" # install package to devDependencies
+alias pag="p add -g" # install  package globally
+alias pr="p remove" # uninstall package
+alias pity="p init -y" # create a package.json file
+alias pev="p dev" # runs dev script
+alias puild="p build" # runs build script
+alias part="p start" # runs product build
+alias pint="p lint" # runs lint script
+alias pix="p lint:fix" # runs lint fix script
+
 # aliases end
 
 ### Added by Zinit's installer
