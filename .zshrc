@@ -14,6 +14,30 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+# aliases 
+
+# git
+alias g="git" # git 
+alias ga="g add" # adds selected files to repo
+alias gaa="g add ." # adds all files to repo
+alias gc="g clone" # clone repo
+alias gs="g status" # gives status repport
+alias gcm="g commit -m" # commits files to stage area
+alias gacm="gaa && gcm" # adds all files to repo and commits files to stage area
+alias gp="g push" # push files to repo
+alias gpo="g push origin" # pushes files to repo
+alias gpl="g pull" # get updates from repo
+alias gch="g checkout" # moves between existing branches
+alias gchb="g checkout -b" # creates new branch
+alias gb="g branch" # shows list of all branches
+alias gbd="g branch -d" # deletes branches from local repo
+alias gf="g fetch"
+alias fuck="g reset --hard"
+# git logs
+alias dog="git log --oneline --all --decorate --graph" # pretty git log
+
+# aliases end
+
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
     print -P "%F{33} %F{220}Installing %F{33}ZDHARMA-CONTINUUM%F{220} Initiative Plugin Manager (%F{33}zdharma-continuum/zinit%F{220})…%f"
