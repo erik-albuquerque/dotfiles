@@ -72,6 +72,18 @@ alias part="p start" # runs product build
 alias pint="p lint" # runs lint script
 alias pix="p lint:fix" # runs lint fix script
 
+# docker
+alias d="docker" # docker 
+alias ds="d start" # start container
+alias dst="d stop" # stop container 
+alias dl="d logs" # container logs
+alias dps="d ps" # list containers
+alias dr="d rm" # remove container
+alias dd="d down" # 
+alias dc="d compose" #
+alias dcd="dc down" # 
+alias dcu="dc up -d" #
+
 # aliases end
 
 ### Added by Zinit's installer
