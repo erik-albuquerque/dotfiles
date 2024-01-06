@@ -36,6 +36,26 @@ alias fuck="g reset --hard"
 # git logs
 alias dog="git log --oneline --all --decorate --graph" # pretty git log
 
+# bash
+alias ..="cd .." # back to before folder
+alias c="clear" # clear terminal 
+alias e="exit" # close terminal 
+alias h="history" # command history
+alias s="sudo" # sudo
+alias super="s su" # super user
+alias update="s apt update" # check if updates
+alias upgrade="s apt upgrade -y" # install updates
+alias up="update && upgrade" # check for updates and install them
+alias install="s apt install" # install app
+alias remove="s apt remove" # uninstall app
+alias ll="ls -t -1 -a -l" # lists all files and directories in the current directory, including hidden ones
+alias la="ls -A" # lists all files and directories in the current directory, including hidden ones, but excludes special references `.` and `...` 
+alias l="ls -CF" # lists the files and directories in the current directory in columns, and adds type indicators to the filenames to indicate the type of each item in the directory. 
+alias rmf="rm -fr" # force delete
+alias bye="shutdown -r now" # turn off
+alias .zshrc="code ~/.zshrc" # open .zshrc on vscode
+alias .kitty="code ~/.config/kitty/kitty.conf" # open kitty.conf on vscode
+
 # aliases end
 
 ### Added by Zinit's installer
