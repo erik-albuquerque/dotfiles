@@ -1,0 +1,271 @@
+{
+  // Theme & Appearance
+  "workbench.colorTheme": "Community Material Theme Darker",
+  "editor.fontFamily": "JetBrains Mono", // 'JetBrains Mono' / 'Geist Mono' / 'Monocraft'
+  "terminal.integrated.fontFamily": "Hack Nerd Font Mono", // 'Geist Mono' / 'Hack Nerd Font Mono'
+  "workbench.iconTheme": "material-icon-theme",
+  
+  // Emmet's settings
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  
+  // Editor's settings
+  "breadcrumbs.enabled": false,
+  "workbench.startupEditor": "none",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.accessibilitySupport": "off",
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.rulers": [100, 120],
+  "extensions.ignoreRecommendations": true,
+  "typescript.tsserver.log": "off",
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "window.zoomLevel": 0,
+  "files.associations": {
+    ".stylelintrc": "json",
+    "*.tsx": "typescriptreact",
+    ".env.*": "dotenv",
+    ".prettierrc": "json"
+  },
+  "editor.parameterHints.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  "cSpell.language": "en,pt",
+  "editor.lineHeight": 22,
+  
+  // TypeScript's settings
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  
+  // Material Icon Theme settings
+  "material-icon-theme.activeIconPack": "nest",
+  "editor.suggestSelection": "first",
+  
+  // Explorer's settings
+  "explorer.confirmDelete": false,
+  
+  // GitLens settings
+  "gitlens.codeLens.recentChange.enabled": false,
+  
+  // Terminal settings
+  "terminal.integrated.showExitAlert": false,
+  
+  // Prisma settings
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+  
+  // Formatting settings
+  "editor.fontLigatures": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  
+  // Icon associations for files
+  "material-icon-theme.files.associations": {
+    "*.ts": "typescript",
+    "**.json": "json",
+    "fileName.ts": "angular",
+    // "jano-lock.yaml": "../../../../Downloads/moon"
+  },
+  
+  // Icon associations for folders
+  "material-icon-theme.folders.associations": {
+    "adapters": "contract",
+    "grpc": "pipe",
+    "kube": "kubernetes",
+    "main": "lib",
+    "websockets": "pipe",
+    "implementations": "core",
+    "protos": "pipe",
+    "entities": "class",
+    "kafka": "pipe",
+    "use-cases": "functions",
+    "migrations": "tools",
+    "schemas": "class",
+    "useCases": "functions",
+    "eslint-config": "tools",
+    "typeorm": "database",
+    "_shared": "shared",
+    "mappers": "meta",
+    "fakes": "mock",
+    "modules": "components",
+    "subscribers": "messages",
+    "domain": "class",
+    "protocols": "contract",
+    "infra": "app",
+    "view-models": "views",
+    "presentation": "template",
+    "dtos": "typescript",
+    "http": "container",
+    "providers": "include",
+    "factories": "class",
+    "repositories": "mappings"
+  },
+  
+  // Code Spell settings
+  "cSpell.enableFiletypes": [
+    "!asciidoc",
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!go",
+    "!handlebars",
+    "!haskell",
+    "!jade",
+    "!java",
+    "!latex",
+    "!php",
+    "!pug",
+    "!python",
+    "!restructuredtext",
+    "!rust",
+    "!scala",
+    "!scss"
+  ],
+  
+  // More Editor settings
+  "explorer.compactFolders": false,
+  "git.enableSmartCommit": true,
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.fontSize": 14,
+  // "editor.codeActionsOnSave" : { 
+    // "source.fixAll.eslint" : true, 
+    // "source.organizeImports": true 
+  // },
+  "gitlens.codeLens.authors.enabled": false,
+  
+  // Security settings
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "security.workspace.trust.banner": "always",
+  
+ // File Exclusion settings
+  "files.exclude": {
+    "**/.open-next": true,
+    "**/.sst": true,
+    "**/.nx": true,
+    "**/.turbo": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true,
+    "**/.husky": true,
+    "**/.github": true,
+    "**/.gitignore": true,
+    "**/dist": true,
+    "**/.next": true,
+    "**/*.tsbuildinfo": true,
+    "**/.astro": true
+  },
+  
+  // Menu and Status Bar settings
+  "gitlens.codeLens.enabled": false,
+  "window.menuBarVisibility": "toggle",
+  
+  // TypeScriptReact settings
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  
+  // TypeScript's formatter settings
+  "[typescript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  
+  // Git settings
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "git.openRepositoryInParentFolders": "never",
+  
+  // JSON formatter settings
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  
+  // Markdown display settings
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  
+  // JSONC formatter settings
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  
+  // JavaScript formatter settings
+  "[javascript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  
+  // SVG settings
+  "svg.preview.mode": "svg",
+  
+  // Additional Theme
+  "vscode-pets.theme": "forest",
+  
+  // CSS formatter settings
+  "[css]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  
+  // ErrorLens settings
+  "errorLens.excludeBySource": [
+    "eslint(react/jsx-props-no-spreading)",
+    "eslint(no-undef)",
+    "ts(2345)"
+  ],
+  
+  // Diff Editor settings
+  "diffEditor.ignoreTrimWhitespace": false,
+  
+  // HTML formatter settings
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  
+  // Status bar icon settings
+  "workbench.productIconTheme": "fluent-icons",
+
+  // Experimental GitLens settings with OpenAI
+  "gitlens.ai.experimental.provider": "openai",
+  "gitlens.ai.experimental.openai.model": "gpt-4-1106-preview",
+  
+  // Markdown formatter settings
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  
+  // APC settings
+  // "apc.font.family": "",
+  "apc.activityBar": {
+    "position": "bottom",
+    "hideSettings": true,
+    "size": 28
+  },
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "height": 22,
+    "fontSize": 12
+  },
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 8,
+      "y": 10
+    }
+  },
+  "apc.header": {
+    "height": 24,
+    "fontSize": 14
+  },
+  "apc.listRow": {
+    "height": 21,
+    "fontSize": 13
+  }
+}
