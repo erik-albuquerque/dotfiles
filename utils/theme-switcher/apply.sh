@@ -9,25 +9,25 @@ current_hour=$(date +'%H')
 default_cursor="KDE_Classic"
 kitty_config="$USER_HOME/.config/kitty/kitty.conf"
 vscode_config="$USER_HOME/.config/Code/User/settings.json"
-sddm_theme_path="/usr/share/sddm/themes/kubuntu/"
-sddm_config="${sddm_theme_path}theme.conf.user"
+sddm_theme_path="/usr/share/sddm/themes/kubuntu"
+sddm_config="${sddm_theme_path}/theme.conf"
 lock_screen_config="$USER_HOME/.config/kscreenlockerrc"
 
 light_theme=(
     "org.kde.breeze.desktop"
     "BreezeWhite" # Breeze White by aroun
-    "Stylish-Adwaita-Light" # Stylish icon theme by MJ 
-    "$USER_HOME/.local/bin/theme-switcher/wallpaper/light.jpg"
-    "$USER_HOME/.local/bin/theme-switcher/kitty/kitty-light.conf"
+    "Stylish-Light" # Stylish icon theme by MJ 
+    "$PWD/wallpaper/light.jpg"
+    "$PWD/kitty/kitty-light.conf"
     "Min Light" # VSCode theme: Min theme
 )
 
 dark_theme=(
     "org.kde.breezedark.desktop"
     "MaterialThemeDark" # Custom Material Theme Dark (find in dotfiles)
-    "Stylish-Adwaita-Dark" # Stylish icon theme by MJ
-    "$USER_HOME/.local/bin/theme-switcher/wallpaper/dark.jpg"
-    "$USER_HOME/.local/bin/theme-switcher/kitty/kitty-dark.conf"
+    "Stylish-Dark" # Stylish icon theme by MJ
+    "$PWD/wallpaper/dark.jpg"
+    "$PWD/kitty/kitty-dark.conf"
     "Material Theme Darker" # VSCode theme: Material Theme - Free
 )
 
