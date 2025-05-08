@@ -24,7 +24,7 @@ light_theme=(
 
 dark_theme=(
     "org.kde.breezedark.desktop"
-    "MaterialThemeDark" # Custom Material Theme Dark (find in dotfiles)
+    "Material Theme Dark" # Custom Material Theme Dark (find in dotfiles)
     "Stylish-Dark" # Stylish icon theme by MJ
     "$PWD/wallpaper/dark.jpg"
     "$PWD/kitty/kitty-dark.conf"
