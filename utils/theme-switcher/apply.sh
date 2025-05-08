@@ -28,7 +28,7 @@ dark_theme=(
     "Stylish-Dark" # Stylish icon theme by MJ
     "$PWD/wallpaper/dark.jpg"
     "$PWD/kitty/kitty-dark.conf"
-    "Material Theme Darker" # VSCode theme: Material Theme - Free
+    "Min Dark" # VSCode theme: Material Theme - Free
 )
 
 error() {
